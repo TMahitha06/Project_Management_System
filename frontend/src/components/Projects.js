@@ -195,7 +195,7 @@ const Projects = () => {
                 onChange={(e) => setFormData({ ...formData, end_date: e.target.value })}
               />
               
-              <label>Assign Members (Optional)</label>
+              <label>Assign Members</label>
               <div className="assigned-members">
                 {users.map(u => (
                   <label key={u.id} className="member-checkbox">
